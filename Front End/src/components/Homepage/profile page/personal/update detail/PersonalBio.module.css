@@ -1,0 +1,81 @@
+.box1 {
+  height: 100vh;
+  margin: 0% 26%;
+  padding: 4rem 0;
+}
+.close {
+  background: transparent;
+  border: none;
+  color: gray;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.heading {
+  color: #27ae60;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.box2 textarea {
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 2rem;
+  background: gainsboro;
+}
+.box2 textarea:focus {
+  outline: none;
+}
+.align {
+  width: 100%;
+  text-align: center;
+}
+.savebtn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #27ae60;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  margin-right: 2%;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.savebtn:hover,
+.savebtn:focus {
+  background-color: #33cf74;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.savebtn:hover {
+  transform: translateY(-1px);
+}
+
+.savebtn:active {
+  background-color: #33cf74;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}

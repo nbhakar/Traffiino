@@ -1,0 +1,15 @@
+.title {
+  margin-left: 35px;
+  font-size: 42px;
+  color: #fb7f2c;
+  margin-top: 51px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  padding: 0 85px;
+  margin-top: 40px;
+}

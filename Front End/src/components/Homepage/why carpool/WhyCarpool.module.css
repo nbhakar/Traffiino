@@ -1,0 +1,24 @@
+.box1 {
+  background-color: #27ae60;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 20px;
+  /* transform: rotate(-2deg); */
+}
+.box3 {
+  width: 40%;
+  /* transform: rotate(2deg); */
+}
+.box2 {
+  display: flex;
+  margin-top: 2.5rem;
+}
+.box2 p {
+  font-size: 18px;
+}
+.box2 h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

@@ -1,0 +1,66 @@
+.box1 {
+  width: 100%;
+}
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: start;
+}
+.box3 {
+  width: 48%;
+}
+.box4 {
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+.upload {
+  height: 0px;
+  width: 0px;
+}
+.filename {
+  margin-top: 0.5rem;
+  font-size: 13px;
+  color: gray;
+}
+.uploadlabel {
+  cursor: pointer;
+}
+.uploadlabel:hover {
+  color: #27ae60;
+}
+.line {
+  width: 80%;
+  border: 1px solid gainsboro;
+  margin: 2.5rem 6rem;
+}
+.alert {
+  background-color: antiquewhite;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 3px 0px;
+  border-radius: 6px;
+}
+.save {
+  margin-top: 1.2rem;
+  width: 100%;
+  text-align: end;
+  border: none;
+  padding: 10px 80px;
+  background: transparent;
+}
+.saveBtn {
+  background: #fa6400;
+  color: white;
+  border: none;
+  padding: 7px 28px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 250ms;
+  border: 2px solid #fa6400;
+}
+.saveBtn:hover {
+  background-color: transparent;
+  border: 2px solid #fa6400;
+  color: #fa6400;
+}

@@ -1,0 +1,23 @@
+.resBox {
+  min-height: 80vh;
+}
+.ridesBox {
+  padding: 20px;
+}
+.close {
+  background: white;
+  border: none;
+  color: rgb(104, 104, 104);
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 2rem;
+  font-size: 25px;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+}
+.closeBox {
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+}

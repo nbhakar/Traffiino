@@ -1,0 +1,84 @@
+.box3 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  border: 2px solid gainsboro;
+}
+.box3 {
+  margin-bottom: 0.5rem;
+}
+.box4 {
+  display: inline;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+.box4:hover {
+  color: #27ae60;
+}
+.info1 {
+  margin-top: 1.2rem;
+  width: 100%;
+  text-align: start;
+  border: none;
+  padding: 10px;
+  background: transparent;
+}
+.info2 {
+  font-size: 18px;
+  color: gray;
+}
+.info3 {
+  font-size: 18px;
+  color: #27ae60;
+}
+.info3invalid {
+  color: gray;
+}
+.info1:hover {
+  background-color: gainsboro;
+}
+.save {
+  margin-top: 1.2rem;
+  width: 100%;
+  text-align: end;
+  border: none;
+  padding: 10px 80px;
+  background: transparent;
+}
+.saveBtn {
+  background: #fa6400;
+  color: white;
+  border: none;
+  padding: 7px 28px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 250ms;
+  border: 2px solid #fa6400;
+}
+.saveBtn:hover {
+  background-color: transparent;
+  border: 2px solid #fa6400;
+  color: #fa6400;
+}
+.box1 {
+  padding-bottom: 4rem;
+}
+.upload {
+  height: 0;
+  width: 0;
+}
+.line {
+  border: 1px solid gainsboro;
+  margin: 0rem 0.7rem;
+  margin-top: 1.4rem;
+}
+.info1not {
+  margin-top: 1.2rem;
+  width: 100%;
+  text-align: start;
+  border: none;
+  padding: 10px;
+  background: transparent;
+}

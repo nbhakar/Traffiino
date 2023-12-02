@@ -1,0 +1,39 @@
+.header {
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.wrapper {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outerBox {
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
+  /* background-color: aqua; */
+}
+ul {
+  padding: 0;
+}
+.outerBox li {
+  list-style: none;
+  cursor: pointer;
+}
+.outerBox ul {
+  /* text-align: center; */
+  font-size: 17px;
+}
+.outerBox li:hover {
+  color: green;
+  font-weight: bold;
+}
+.dropdownLogo {
+  margin-left: 0.5rem;
+  height: 3.1rem;
+  width: 3.2rem;
+  border-radius: 50px;
+  border: 2.5px solid #919191;
+}

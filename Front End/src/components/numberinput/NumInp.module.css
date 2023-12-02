@@ -1,0 +1,18 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #b3b2b2;
+  border-radius: 5px;
+  width: 39%;
+  padding: 10px 0px;
+}
+.input {
+  border: none;
+  width: 30%;
+  margin-left: 2px;
+}
+.input:focus {
+  outline: none;
+}

@@ -1,0 +1,65 @@
+.box3 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  border: 2px solid gainsboro;
+}
+.box3 {
+  margin-bottom: 0.5rem;
+}
+.box4 {
+  display: inline;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+.box4:hover {
+  color: #27ae60;
+}
+.info1 {
+  margin-top: 1.2rem;
+  width: 100%;
+  text-align: start;
+  border: none;
+  padding: 10px;
+  background: transparent;
+  border-radius: 10px;
+}
+.info2 {
+  font-size: 18px;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.info3 {
+  font-size: 18px;
+  color: #27ae60;
+  display: flex;
+}
+.info3invalid {
+  color: gray;
+}
+.info1:hover {
+  background-color: rgb(240, 240, 240);
+}
+.box1 {
+  padding-bottom: 4rem;
+}
+.upload {
+  height: 0;
+  width: 0;
+}
+.line {
+  border: 1px solid gainsboro;
+  margin: 0rem 0.7rem;
+  margin-top: 1.4rem;
+}
+.info1not {
+  margin-top: 1.2rem;
+  width: 100%;
+  text-align: start;
+  border: none;
+  padding: 10px;
+  background: transparent;
+}

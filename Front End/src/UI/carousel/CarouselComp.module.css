@@ -1,0 +1,34 @@
+.box1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10rem;
+  margin-top: 1.5rem;
+}
+.title {
+  text-align: center;
+  font-size: 42px;
+  color: #fb7f2c;
+  margin-top: 51px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.box2 {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.box2 img {
+  border-radius: 15px;
+}
+.box3 {
+  width: 40%;
+  padding-left: 5rem;
+}
+.box3 p {
+  font-size: 1.3rem;
+}
+.box3 h2 {
+  font-size: 1.8rem;
+}

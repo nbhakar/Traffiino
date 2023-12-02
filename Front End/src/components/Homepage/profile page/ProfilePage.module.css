@@ -1,0 +1,40 @@
+.outer {
+  height: 60rem;
+  padding: 1rem 4rem;
+}
+.navbox {
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0;
+}
+.box1 {
+  display: flex;
+}
+.box3 {
+  margin-right: 7rem;
+}
+.navitems {
+  color: gray;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.active {
+  background-color: gainsboro;
+  color: black;
+}
+.navitems:hover {
+  background-color: gainsboro;
+  color: black;
+}
+.design {
+  height: 20%;
+  background-color: gainsboro;
+  width: 100%;
+}
+.box2 {
+  width: 100%;
+}
